@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body{
+    width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items:center ;
+     background-color: gold;
+     }
+.bmi-calculator{
+width: 800px;
+height: 500px;
+padding: 50px;
+background-color: aliceblue;
+border-radius: 8px;
+box-shadow: 0 0 10px gold;
+display: flex;
+}
+.BOX{
+    width:350px;
+    background-image: url(./BMI.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
