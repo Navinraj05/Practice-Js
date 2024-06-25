@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom'  ;
-import BMI from './Projects/BMI/BMI';
+import BMI from './BMI/BMI';
+import QrCodeGenerator from './QRcode/QRcodeGenerator';
+import Topcities from './Topcities/TopCities';
 
 
 
@@ -11,9 +13,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <BrowserRouter>
-    {/* <App /> */}
-    <BMI/>
-    </BrowserRouter>
+    <App />
+  </BrowserRouter>
   </React.StrictMode>
  
 );

@@ -32,7 +32,7 @@ function  BMI() {
   };
 
   return (
-    <div className=" bg-amber-200 min-h-screen flex items-center justify-center bg-gray-100">
+    <div className=" bg-amber-200 min-h-screen flex items-center justify-center">
       <div className="bg-amber-400 p-6 rounded-lg shadow-lg w-full max-w-xs">
         <h1 className="text-2xl font-bold mb-4 text-center">BMI Calculator</h1>
         <div className="mb-4">
